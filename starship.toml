@@ -1,0 +1,13 @@
+[character]
+success_symbol = "[>> ](bold green)"
+error_symbol = "[>> ](bold red)"
+
+[package]
+disabled = true
+
+[directory]
+truncation_length = 4
+truncation_symbol = "../"
+
+[python]
+disabled = true
