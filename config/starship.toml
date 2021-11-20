@@ -1,0 +1,23 @@
+[character]
+success_symbol = "[>> ](bold green)"
+error_symbol = "[>> ](bold red)"
+
+[package]
+disabled = true
+
+[directory]
+read_only = " "
+read_only_style = "red"
+truncation_length = 4
+truncation_symbol = "../"
+
+[python]
+disabled = true
+
+[git_branch]
+symbol = ""
+style = "bold purple"
+format = "on [$symbol $branch]($style) "
+
+[git_status]
+deleted = ""
