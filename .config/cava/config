@@ -1,0 +1,26 @@
+[color]
+
+# Colors can be one of seven predefined: black, blue, cyan, green, magenta, red, white, yellow.
+# Or defined by hex code '#xxxxxx' (hex code must be within ''). User defined colors requires
+# ncurses output method and a terminal that can change color definitions such as Gnome-terminal or rxvt.
+# if supported, ncurses mode will be forced on if user defined colors are used.
+# default is to keep current terminal color
+background = default
+foreground = blue
+
+# Gradient mode, only hex defined colors (and thereby ncurses mode) are supported,
+# background must also be defined in hex  or remain commented out. 1 = on, 0 = off.
+# You can define as many as 8 different colors. They range from bottom to top of screen
+gradient = 1
+gradient_count = 4  
+gradient_color_1 = '#88afff'
+gradient_color_2 = '#c3a4f8'
+gradient_color_3 = '#f7768e'
+gradient_color_4 = '#ffa86f'
+gradient_color_5 = '#9ece6a'
+gradient_color_6 = '#c0caf5'
+gradient_color_7 = '#09c1dc'
+gradient_color_8 = '#24283b'
+
+[output]
+method = ncurses
