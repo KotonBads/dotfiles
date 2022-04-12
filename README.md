@@ -6,6 +6,7 @@ Somehow you've gotten your way into here
 # Installation
 
 Copy over the files to their respective directories, the panel config can be loaded from the panel settings
+
 (Turn off shadows from my picom config if you're using a light background)
 
 # Sources
